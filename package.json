@@ -1,0 +1,28 @@
+{
+  "name": "@ai-native-solutions/fallshell-mcp",
+  "version": "1.0.0",
+  "description": "fallshell MCP server · stdio wrapper around @ai-native-solutions/fallshell-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fallshell-mcp": "src/index.js"
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["fallshell", "mcp", "model-context-protocol", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallshell-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/fallshell-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
